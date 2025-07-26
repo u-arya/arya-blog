@@ -1,0 +1,14 @@
+{
+  "index": {
+    "title": "All Posts",
+    "display": "hidden"
+  },
+  "first-post": {
+    "title": "My First Blog Post",
+    "description": "An introduction to Next.js and its features for building blogs."
+  },
+  "second-post": {
+    "title": "Advanced Next.js Features",
+    "description": "Exploring more advanced features of Next.js including API routes and Static Site Generation."
+  }
+}

@@ -1,11 +1,41 @@
-import Bleed from 'nextra-theme-docs/bleed'
+import HomeLayout from '../components/HomeLayout'
+import Link from 'next/link'
 
-# Nextra
+<HomeLayout>
+  # Welcome to Arya Blog
 
-**Nextra** is a [Next.js](https://nextjs.org) based static site generator.
+  This is the home page of Arya Blog, built with Next.js and Nextra.
 
-It supports Markdown and React components ([MDX](/features/mdx)), automatically generated [sidebar and anchor links](/get-started#sidebar-and-anchor-links), file-system based routing, built-in syntax highlighting, image optimization, custom layouts, i18n, and all the features you love about Next.js.
+  ## Features
 
-Here's what you will get in 1 minute:
+  - **Markdown Support**: Write content in Markdown
+  - **Syntax Highlighting**: Code blocks with syntax highlighting
+  - **Search**: Full-text search functionality
+  - **Dark Mode**: Toggle between light and dark themes
+  - **Mobile Responsive**: Looks great on all devices
 
-<Bleed>![Nextra Example](../public/demo.png)</Bleed>
+  ## Getting Started
+
+  Visit the [docs](/docs) to learn more about this blog.
+
+  Or check out the [hello](/hello) page for a simple example.
+
+  ## Latest Blog Posts
+
+  Check out my latest [blog posts](/posts):
+
+  - [My First Blog Post](/posts/first-post) - An introduction to Next.js and its features for building blogs.
+  - [Advanced Next.js Features](/posts/second-post) - Exploring more advanced features of Next.js including API routes and Static Site Generation.
+
+  ---
+
+  <div className="mt-8 pt-4 border-t">
+    <div className="flex justify-between items-center">
+      <Link href="/posts" className="text-blue-600 hover:underline">View All Posts</Link>
+      <Link href="/posts/first-post" className="text-blue-600 hover:underline">Read First Post →</Link>
+    </div>
+    <div className="mt-4">
+      <Link href="/docs" className="text-blue-600 hover:underline">Explore Documentation →</Link>
+    </div>
+  </div>
+</HomeLayout>

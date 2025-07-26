@@ -1,0 +1,37 @@
+# Blog Posts
+
+import Link from 'next/link'
+
+<div className="space-y-8">
+  <div className="border-b pb-6">
+    <h2 className="text-2xl font-semibold mb-2">
+      <Link href="/posts/first-post">
+        My First Blog Post
+      </Link>
+    </h2>
+    <div className="text-sm text-gray-500 mb-2">July 26, 2025</div>
+    <p className="mb-4">An introduction to Next.js and its features for building blogs.</p>
+    <Link href="/posts/first-post" className="text-blue-600 hover:underline">
+      Read more →
+    </Link>
+  </div>
+
+  <div className="border-b pb-6">
+    <h2 className="text-2xl font-semibold mb-2">
+      <Link href="/posts/second-post">
+        Advanced Next.js Features
+      </Link>
+    </h2>
+    <div className="text-sm text-gray-500 mb-2">July 28, 2025</div>
+    <p className="mb-4">Exploring more advanced features of Next.js including API routes and Static Site Generation.</p>
+    <Link href="/posts/second-post" className="text-blue-600 hover:underline">
+      Read more →
+    </Link>
+  </div>
+</div>
+
+<div className="mt-8 pt-4 border-t">
+  <Link href="/" className="text-blue-600 hover:underline">
+    ← Back to Home
+  </Link>
+</div>

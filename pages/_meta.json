@@ -1,0 +1,19 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden"
+  },
+  "hello": {
+    "title": "Hello",
+    "type": "page"
+  },
+  "docs": {
+    "title": "Documentation",
+    "type": "page"
+  },
+  "posts": {
+    "title": "Blog Posts",
+    "type": "page"
+  }
+}
