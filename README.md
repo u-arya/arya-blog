@@ -10,3 +10,8 @@ To test locally, run:
 ```
 npm run dev
 ```
+
+
+Deployment:
+
+Go to Vercel and import the project to it.
